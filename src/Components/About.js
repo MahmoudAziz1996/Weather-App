@@ -114,7 +114,7 @@ export default class Store extends React.Component {
               raised
               name="shopping-cart"
               type="font-awesome"
-              color="#e3e3e3"
+              color="#903734"
               size={30}
             />
           </View>
@@ -172,6 +172,6 @@ export default class Store extends React.Component {
     backgroundColor: "#e3e3e3",
     justifyContent: "center",
     alignItems: "center"
-  }, number: { fontSize: 14, color: "#000" }, selected: { backgroundColor: "#FA7B5F" },
+  }, number: { fontSize: 14, color: "#903734" ,fontWeight:'bold'}, selected: { backgroundColor: "#FA7B5F" },
 });
 
